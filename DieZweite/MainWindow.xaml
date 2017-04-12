@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:DieZweite"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="161,163,0,0" VerticalAlignment="Top" Width="75"/>
+    <Grid Cursor="Arrow">
+        <Button x:Name="button" Content="QuickSort" HorizontalAlignment="Left" Margin="261,77,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" ToolTip="Hier klicken zum sortieren"  />
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="128,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Height="125" Margin="128,129,0,0" FontFamily="Showcard Gothic" VerticalAlignment="Top" Width="208" FontSize="22"/>
 
     </Grid>
 </Window>
